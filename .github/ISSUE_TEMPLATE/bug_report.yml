@@ -1,0 +1,21 @@
+name: Bug report
+description: Report an incorrect finding or MCP config parsing failure
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: Reproduction
+      description: Include a minimal config and baseline; remove all secrets.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected result
+    validations:
+      required: true
